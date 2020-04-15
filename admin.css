@@ -1,0 +1,50 @@
+#sbwcom_order_number_dd_label{
+    display: block;
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+
+#sbwcom_order_number_dd{
+    display: inline-block;
+    width: 100% !important;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#sbwcom_submit_merge{
+    display: inline-block;
+    width: 100%;
+}
+
+div#sbwcom_overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #00000087;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+}
+
+div#sbwcom_dialogue {
+    position: fixed;
+    top: 10vh;
+    left: 44vw;
+    z-index: 10001;
+    background: white;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #0000006b;
+}
+
+div#sbwcom_dialogue p {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 0;
+}
+
+div#sbwcom_dialogue button {
+    font-size: 16px;
+    width: 100%;
+}
